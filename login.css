@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(140, 32, 148);
+}
+.Login-Form
+{
+    margin: 20px 30% 20px;
+    width: 500px;
+    height: 95vh;
+    background-color:rgb(172, 74, 175);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+    border-radius: 5px;
+}
+
+.companies-name
+{
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 3px #fff;
+    margin: 20px 0 0;
+    font-size: 35px;
+    font-weight: 1200;
+    background-image: url(posho\ mark\ logo.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.form
+{
+    margin: 70px 97px 0;
+}
+
+h4
+{
+    margin: 15px 0 10px ;
+    color: blue;
+    font-size: 29px;
+    font-weight: 900;
+}
+
+input
+{
+    width: 300px;
+    height: 5vh;
+    margin-bottom: 20px;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+}
+
+input:hover
+{
+    background-color: white;
+    border: 2px solid blue;
+}
+
+::placeholder
+{
+    color: white;
+    font-size: 16px;
+}
+
+button
+{
+    width: 307px;
+    height: 4.5vh;
+    color: white;
+    font-size: 22px;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+    margin: 0 0 20px;
+}
+
+button:hover
+{
+    background-color: blue;
+    color: rgb(172, 74, 175);
+}
+
+.forgoten-password
+{
+    margin: -7px 97px 100px; 
+    font-size: 22px;
+}
+
+.forgoten-password a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+.forgoten-password a:hover
+{
+    color: white;
+}
+
+.back
+{
+    margin: 80px 97px 0px; 
+    font-size: 22px;
+    text-align: center;
+}
+
+.back a
+{
+    text-decoration: none;
+    color: blue;
+    width: 100px;
+    height: 2vh;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+    padding: 7px;
+}
+
+.back a:hover
+{
+    color: white;
+}
+.create-new-account
+{
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.create-new-account a
+{
+    width: 150px;
+    height: 8vh;
+    background-color: blue;
+   text-decoration: none;
+   padding: 10px;
+   box-shadow: 0 0 2px white;
+   font-size: 22px;
+   font-weight: 1300;
+   color: white;
+}
+
+.create-new-account a:hover
+{
+    color: rgb(140, 32, 148);
+    background-color: white;
+}
+
+.vote-of-thanks
+{
+    text-align: center;
+    margin-top: 50px;
+    font-style:italic;
+    color: rgb(140, 32, 148);
+    font-size: 15px;
+    font-weight: 1300;
+}

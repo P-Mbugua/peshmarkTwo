@@ -1,0 +1,580 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color:rgb(172, 74, 175);
+}
+
+
+.login-search
+{
+    display: flex;
+    margin-left: 50%;
+    margin-top: 15px;
+}
+.search-box
+{
+    width: 350px;
+    background: white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.row
+{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+input
+{
+    flex: 1;
+    height: 18px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    color: rgb(172, 74, 175);
+}
+
+.button
+{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+button
+{
+    width: 60px;
+    color: rgb(172, 74, 175);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+::placeholder
+{
+    color: rgb(172, 74, 175);
+}
+
+.login-form
+{
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    padding: 5px ;
+    border-radius: 5px;
+    display: flex;
+}
+
+.login-form a
+{
+    font-size: 25px;
+    font-weight: 9000;
+    color: rgb(172, 74, 175);
+    text-decoration: none;
+}
+
+.login-form h4
+{
+    color: rgb(172, 74, 175);
+    font-size: 19px;
+    padding: 5px;
+}
+
+.login-form i
+{
+    color: rgb(172, 74, 175);
+    font-size: 25px; 
+    padding-top: 5px;
+}
+
+.product-catalogue
+{
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    padding: 5px ;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 15%;
+    display: flex;
+}
+
+.product-catalogue h4
+{
+    padding: 5px;
+    margin-left: 10px;
+    color: rgb(172, 74, 175);
+}
+
+.product-catalogue a
+{
+    font-size: 25px;
+    font-weight: 9000;
+    color: rgb(172, 74, 175);
+    text-decoration: none; 
+}
+
+.product-catalogue i
+{
+    color: rgb(172, 74, 175);
+    font-size: 25px; 
+    padding-top: 5px;
+}
+
+.logo-navbar
+{
+    width: 96.2%;
+    height: 10vh;
+    background-color: rgb(140, 32, 148);
+    display: flex;
+    margin-right: 10px;
+    margin-left: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+}
+
+.logo-navbar img
+{
+    margin-left: 20px;
+}
+
+.logo-navbar h1
+{
+    color: white;
+    font-size: 35px;
+    font-weight: 1300;
+    display: flex;
+    margin-left: 180px;
+    margin-top: -80px;
+}
+
+.logo-navbar h1:hover
+{
+    cursor: pointer;
+    color: rgb(235, 0, 252);
+}
+.logo-navbar h1 span
+{
+    color: white;
+    margin-left: 10px;
+}
+
+.logo-navbar h1 span:hover
+{
+    cursor: pointer;
+    color: rgb(235, 0, 252);
+}
+
+
+.logo-navbar .slogan
+{
+    color: rgb(247, 0, 255);
+    margin-top: 60px;
+    margin-left: -170px;
+    font-weight: 1100;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo-navbar .slogan:hover
+{
+    cursor: pointer;
+    color: white;
+    font-style: italic;
+}
+
+.logo-navbar .navbar
+{
+    margin-left: 26%;
+    padding-top: 10px;
+}
+
+
+.logo-navbar .navbar a
+{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.logo-navbar .navbar a:hover
+{
+    color: rgb(235, 0, 252);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.Latest-products
+{
+    width: 99%;
+    height: 150vh;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+}
+
+.title-part
+{
+    text-align: center;
+    align-items: center;
+}
+
+.title-part h3
+{
+    color: white;
+    font-weight: 2000;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.title-part h3:hover
+{
+    text-decoration: underline 5px rgb(247, 0, 255);
+    color: rgb(247, 0, 255);
+    cursor: pointer;
+}
+
+.stock
+{
+    margin: 25px 25px 0;
+    display: flex;
+}
+
+.stock .airforce
+{
+    padding: 10px;
+}
+
+.stock .airforce .details
+{
+    background: red;
+    border-radius: 5%;
+    width: auto;
+    height: 280px;
+}
+
+.stock .airforce .details:hover
+{
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+    background-color: green;
+}
+
+
+.stock .airforce .details h2
+{
+    color: white;
+    font-size: 27px;
+    font-weight: 2000;
+    text-align: center;
+    margin: -70px 0 60px;
+}
+
+.stock .airforce .details h2:hover
+{
+    color: red;
+}
+
+.stock .airforce .details h4
+{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 1200;
+    margin-left: 10px;
+}
+
+.stock .airforce .details h3
+{
+    text-align: right;
+    margin-top: -21px;
+    margin-right: 10px;
+}
+
+.stock .airforce .details span
+{
+    color: white;
+}
+
+
+.stock .airforce .details img
+{
+    border-radius: 5%;
+}
+
+.showmore 
+{
+    margin: 40px 0 10px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.showmore button
+{
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    color: white;
+    font-size: 28px;
+    font-weight: 1300;
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+    background-color:rgb(172, 74, 175);
+}
+
+.showmore button:hover
+{
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+    box-shadow: 0 0 2px rgb(165, 165, 165);
+}
+
+
+.Customers-Testmonials
+{
+    width: 98.5%;
+    height: 55vh;
+    margin: 10px 10px 10px;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+
+}
+
+.Customers-Testmonials .title2
+{
+    color: white;
+    font-weight: 1000;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Customers-Testmonials h3:hover
+{
+    text-decoration: underline 5px rgb(247, 0, 255);
+    color: rgb(247, 0, 255);
+    cursor: pointer;
+}
+
+
+.images img
+{
+    border-radius: 50%;
+    padding: 0 60px;
+    margin-left: 10px;
+}
+
+.name{
+    margin-top: -140px;
+    margin-left: 18px;
+}
+.names
+{
+    display: flex;
+}
+
+.names h4
+{
+    display: flex;
+    color: white;
+    padding: 140px;
+    font-size: 18px;
+}
+
+.names h4:hover
+{
+    color: rgb(0, 0, 0);
+    text-decoration: underline white 2px;
+    font-style: italic;
+}
+
+.Review{
+    margin-top: -140px;
+    margin-left: 18px;
+}
+.reviews
+{
+    display: flex;
+    margin-top: 20px;
+}
+
+.reviews h4
+{
+    display: flex;
+    color: white;
+    padding:  10px 5px 10px 60px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 20px;
+    background-color:rgb(172, 74, 175);
+    margin-right: 30px;
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+   
+}
+
+.reviews h4:hover
+{
+    background: white;
+    color: black;
+    border: 2px solid rgb(172, 74, 175);
+    font-style: italic;
+
+}
+
+
+
+
+.flash-sales-conditions
+{
+    width: 98.5%;
+    height: 40vh;
+    margin: 0 10px 0;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+}
+
+.flash-sales-conditions .head
+{
+    color: white;
+    font-weight: 1000;
+    font-size: 25px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.flash-sales-conditions h3:hover
+{
+    text-decoration: underline 5px rgb(247, 0, 255);
+    color: rgb(247, 0, 255);
+    cursor: pointer;
+}
+
+
+
+
+.flash-sales-conditions .further 
+{
+   margin-left: 300px;
+}
+
+.flash-sales-conditions .further ol li
+{
+    margin: 5px 0 10px;
+    color: white;
+    font-weight: 1200;
+}
+
+.flash-sales-conditions .further ol li p
+{
+    color: black;
+}
+
+  .all
+{
+    margin: 45px 60px 20px;
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+}
+
+.footer
+{
+    width: 98.5%;
+    height: 32vh;
+    margin: 10px 10px 20px;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+}
+
+
+
+
+
+.footer-col
+{
+    padding: 0 50px;
+    margin-top: 0;
+    width: 98%;
+    height: 30vh;
+    background-color: rgb(140, 32, 148);
+    margin-left: 30px;
+}
+
+.row h4
+{
+    color: white;
+    font-weight: 1300;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.row li 
+{
+    list-style: none;
+    margin-top: 10px;
+}
+
+li a
+{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+.footer-col .stay-connected ul
+{
+    display: flex;
+}
+
+.footer-col .stay-connected ul a
+{
+    font-size: 30px;
+    padding:  10px;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.footer-col .stay-connected a
+{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.partner
+{
+    width: 98.5%;
+    height: 32vh;
+    margin: 10px 10px 20px;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+}
+

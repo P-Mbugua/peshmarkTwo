@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(140, 32, 148);
+}
+.form
+{
+    margin: 20px 30% 20px;
+    width: 500px;
+    height: 95vh;
+    background-color:rgb(172, 74, 175);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+    border-radius: 5px;
+}
+
+.companies-name
+{
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 3px #fff;
+    margin: 50px 0 0;
+    font-size: 35px;
+    font-weight: 1200;
+}
+
+
+.forma
+{
+    margin: 70px 97px 0;
+}
+
+h4
+{
+    margin: 15px 0 10px ;
+    color: blue;
+    font-size: 29px;
+    font-weight: 900;
+    text-align: center;
+}
+
+h5
+{
+    margin: 45px 0 10px ;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+input
+{
+    width: 300px;
+    height: 5vh;
+    margin-bottom: 20px;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+}
+
+input:hover
+{
+    background-color: white;
+    border: 2px solid blue;
+}
+
+::placeholder
+{
+    color: white;
+    font-size: 16px;
+}
+
+button
+{
+    width: 307px;
+    height: 4.5vh;
+    color: white;
+    font-size: 22px;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+    margin: 0 0 20px;
+}
+
+button:hover
+{
+    background-color: blue;
+    color: rgb(172, 74, 175);
+}
+
+
+.forgoten-password
+{
+    margin: 70px 97px 200px; 
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.forgoten-password a
+{
+    text-decoration: none;
+    color: blue;
+    width: 100px;
+    height: 2vh;
+    background-color: rgb(140, 32, 148);
+    border: 2px solid rgb(165, 67, 172);
+    box-shadow: 0 0 2px rgb(235, 0, 252);
+    padding: 7px;
+}
+
+.forgoten-password a:hover
+{
+    color: white;
+}
+.vote-of-thanks
+{
+    text-align: center;
+    margin-top: 100px;
+    font-style:italic;
+    color: rgb(140, 32, 148);
+    font-size: 15px;
+    font-weight: 1300;
+}
